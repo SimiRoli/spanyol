@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+body:not(#home),
+.modal-body {
+    background-color: #ffe5b4;
+}
+
+.navbar-brand{
+    margin-left: 5px;
+}
+.navbar-toggler{
+    margin-right: 5px;
+}
+#home{
+    height: 100vh;
+    background-image: url(../Roli/pics/fooldal.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+#home .intro .col-md-8{
+    background-color: rgba(0,0,0,0.4);
+}
+#home .intro{
+    color: white;  
+    height: 100vh;     
+}
+img {
+    width: 100%;
+    height: auto;
+    
+}
+nav{
+    background-color: #481F01;
+
+}
+
+nav a:first-child img {
+    width: 40px;
+}
+
+
+h1{
+    text-align: center;
+}
+#kozepre{
+    text-align: center;
+}
+
